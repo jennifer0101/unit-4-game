@@ -44,16 +44,21 @@ body {
 
 #losses {
     color: green;
-    padding-bottom: 30px;
     text-align: center;
 }
 
 #winscore {
     color: green;
+    text-align: center;
 }
 
-#lossscore {
+#losescore {
     color: green;
+    text-align: center;
+    margin-top: 0px;
+    
+    padding-bottom: 30px;
+
 }
 
 #totaltext {
@@ -62,7 +67,7 @@ body {
     padding: 3px;
 }
 
-#score {
+#totalscore {
     background-color: #1fa397;
     color: white;
     padding: 3px 197px 100px 3px;
