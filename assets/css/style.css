@@ -1,0 +1,73 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.col-md-10 {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #232b2b;
+}
+
+#nameofgame {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #cb6f34;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#instructions {
+    background-color: #fce5cf;
+    color: green;
+    padding: 20px 5px 80px 5px;
+    font-size: 18px;
+}
+
+#generated {
+    background-color: #53c987;
+    padding: 3px 197px 100px 3px;
+    color: black;
+}
+
+#scorecard {
+ background-color: #3afefd;
+}
+
+#wins {
+    color: green;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#losses {
+    color: green;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#winscore {
+    color: green;
+}
+
+#lossscore {
+    color: green;
+}
+
+#totaltext {
+    background-color: #1fa397;
+    color: white;
+    padding: 3px;
+}
+
+#score {
+    background-color: #1fa397;
+    color: white;
+    padding: 3px 197px 100px 3px;
+}
+
+#buttons {
+    margin-bottom: 10px;
+}
