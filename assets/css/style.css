@@ -22,43 +22,29 @@ body {
 #instructions {
     background-color: #fce5cf;
     color: green;
-    padding: 20px 5px 80px 5px;
+    padding: 20px 5px 50px 5px;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 #generated {
     background-color: #53c987;
-    padding: 3px 197px 100px 3px;
+    padding: 5px 200px 80px 5px;
     color: black;
 }
 
 #scorecard {
  background-color: #3afefd;
+ color: green;
+ text-align: center;
+ padding-top: 45px;
+ padding-bottom: 5px;
+ margin-bottom: 10px; 
 }
 
-#wins {
-    color: green;
-    padding-top: 15px;
-    text-align: center;
-}
-
-#losses {
-    color: green;
-    text-align: center;
-}
-
-#winscore {
-    color: green;
-    text-align: center;
-}
-
-#losescore {
-    color: green;
-    text-align: center;
-    margin-top: 0px;
-    
-    padding-bottom: 30px;
-
+#losewin {
+    padding: opx;
+    margin: 0px;
 }
 
 #totaltext {
@@ -70,7 +56,7 @@ body {
 #totalscore {
     background-color: #1fa397;
     color: white;
-    padding: 3px 197px 100px 3px;
+    padding: 5px 200px 80px 5px;
 }
 
 #buttons {

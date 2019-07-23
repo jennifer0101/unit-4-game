@@ -50,11 +50,15 @@ function checkRandomNumber(){
     if (yourTotal===randomNumber) {
         wins++;
         $("#winscore").html(wins);
+        $("#losewin").html("You win!")
+        //$("#losewin").alert("You win!")
         //alert("Won Game");
         startGame();
     } else if (yourTotal>randomNumber) {
         losses++;
         $("#losescore").html(losses);
+        $("#losewin").html("You lose!")
+        //$("#losewin").alert("You lose!")
         //alert("Lost Game");
         startGame();
     }
