@@ -8,37 +8,11 @@ var lowNumber = 19;
 var highNumber = 120;
 var randomNumber = 0;
 
+$( document ).ready()
 
-$("#crystal1").on("click", function() {     
-    var t=$(this)
-    var value = parseInt(t[0].attributes[1].value)
-    yourTotal += value;
-    $("#totalscore").html(yourTotal);
-    console.log(yourTotal);
-    checkRandomNumber();
-});
-
-$("#crystal2").on("click", function() {     
-    var t=$(this)
-    var value = parseInt(t[0].attributes[1].value)
-    yourTotal += value;
-    $("#totalscore").html(yourTotal);
-    console.log(yourTotal);
-    checkRandomNumber();
-});
-
-$("#crystal3").on("click", function() {     
-    var t=$(this)
-    var value = parseInt(t[0].attributes[1].value)
-    yourTotal += value;
-    $("#totalscore").html(yourTotal);
-    console.log(yourTotal);
-    checkRandomNumber();
-});
-
-$("#crystal4").on("click", function() {     
-    var t=$(this)
-    var value = parseInt(t[0].attributes[1].value)
+$("button").on("click", function() {
+    var value = parseInt(this.value);
+    console.log("value", value)
     yourTotal += value;
     $("#totalscore").html(yourTotal);
     console.log(yourTotal);
