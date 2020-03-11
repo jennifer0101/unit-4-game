@@ -1,6 +1,5 @@
 # Crystal Collector Game
-
-A number matching game where you attempt to match your score to the randomly generated number.  
+[Crystal Collector Game](https://jennifer0101.github.io/unit-4-game/) is a number matching game where you attempt to match your score to the randomly generated number.  
 
 ## Description
 
