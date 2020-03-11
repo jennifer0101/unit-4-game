@@ -38,8 +38,6 @@ function checkRandomNumber(){
     }
 } 
 
-
-
 function startGame() {
     randomNumber=Math.floor(Math.random()*(120-19+1)+19);
     yourTotal=0;
@@ -53,4 +51,5 @@ function startGame() {
     $("#crystal4").attr("value", Math.floor(Math.random() * 12) + 1);
     console.log("reset")
 } 
+
 startGame();
