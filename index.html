@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sunshiney&family=Syncopate&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,21 +19,22 @@
 
     <div class="container">
         <div class="row">
-            
-            <div class="col-md-1">
-            </div>
 
-            <div class="col-md-10">
-                <div class="row">
-                    <div class="col-md-5">
+            <div class="col-md" id="the-back">
+                <div class="row" id="title-card">
+                    <div class="col">
+                    </div>
+                    <div class="col-md-auto">
                         <h2 id="nameofgame">Crystals Collector!</h2>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col">
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="row" id="instructions-card">
+                    <div class="col">
+                    </div>
+                    <div class="col-md-auto">
                         <div id="instructions">
                             <p>You will be given a random number at the start of the game.</p>
                             
@@ -45,61 +48,71 @@
                          
                             <p>Each time when the game starts, the game will change the values of each crystal.</p>
                         </div>
-                    </div>
-                        
-                    <div class="col-md-6">
+                        <div class="col">
+                        </div>
                     </div>
                 </div>
 
-                    <div class="row">
-                        <div class="col-md-3">
-                            <h1 id="generated"></h1>
-                        </div>
-
-                        <div class="col-md-2">
-                            <div id="scorecard">
-                                <div id=row>
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-4">
+                        <h1 id="generated"></h1>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="scorecard">
+                            <div id=row>
+                                <div class="row" id="one">
                                     <h5 id="losewin"></h5>
+                                </div>
+                                <div class="row" id="two">
                                     <h5 id="wins">Wins: </h5> <h5 id="winscore"></h5>
+                                </div>
+                                <div class="row" id="three">
                                     <h5 id="losses">Losses: </h5> <h5 id="losescore"></h5>
                                 </div>
                             </div>
-                        <div class="col-md-7">
                         </div>
-                        </div> 
                     </div>
+                    <div class="col-md-2">
+                    </div> 
+                </div>
 
-                    <div class="row">   
-                        <div class="col-md-9">
-                            <div id="buttons">
-                                <button id="crystal1"><img src="assets/images/crystal1.jpg"></button>
-                                <button id="crystal2"><img src="assets/images/crystal2.jpg"></button>
-                                <button id="crystal3"><img src="assets/images/crystal3.jpg"></button>
-                                <button id="crystal4"><img src="assets/images/crystal4.jpg"></button>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
+                <div class="row" id="buttons-card"> 
+                    <div class="col">
+                    </div>
+                    <div class="col-md-auto">
+                        <div id="buttons">
+                            <button id="crystal1"><img src="assets/images/crystal1.jpg"></button>
+                            <button id="crystal2"><img src="assets/images/crystal2.jpg"></button>
+                            <button id="crystal3"><img src="assets/images/crystal3.jpg"></button>
+                            <button id="crystal4"><img src="assets/images/crystal4.jpg"></button>
                         </div>
                     </div>
+                    <div class="col">
+                    </div>
+                </div>
                             
-                    <div class="row">
-                        <div class="col-md-3">
-                            <h5 id="totaltext">Your total score is:</h5>
-                        </div>
-                        <div class="col-md-9">
-                        </div>
+                <div class="row">
+                    <div class="col">
                     </div>
+                    <div class="col-md-auto">
+                        <h5 id="totaltext">Your total score is:</h5>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
                      
-                    <div class="row">
-                        <div class="col-md-3">
-                            <h1 id="totalscore"></h1>
-                        </div>
-                        <div class="col-md-9">
-                        </div>
+                <div class="row" id="totalscore-card">
+                    <div class="col">
                     </div>
+                    <div class="col-md-auto">
+                        <h1 id="totalscore"></h1>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
             </div> 
-            <div class="col-md-1">
-            </div>   
         </div>
     </div>
    

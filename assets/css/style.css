@@ -1,62 +1,118 @@
 body {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Syncopate', sans-serif;
 }
 
-.col-md-10 {
-    background-image: url("../images/background.jpg");
-    background-repeat: repeat;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #232b2b;
+#the-back {
+    background-color: #8ec9bb;
+    border-style: double;
+    border-width: 10px;
+    border-color: #072921;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+#title-card {
+    margin: 30px 0 20px 0;
 }
 
 #nameofgame {
+    font-family: 'Sunshiney';
+    font-size: 75px;
     text-align: center;
-    font-weight: bold;
-    color: white;
-    background-color: #cb6f34;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: #fa6e4f;
+    padding: 15px 195px 15px 195px;
+    width: 100%;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #6d2919;
+    border-radius: 20px;
+}
+
+#instructions-card {
+    margin: 0px 50px 20px 50px;
 }
 
 #instructions {
-    background-color: #fce5cf;
-    color: green;
-    padding: 20px 5px 50px 5px;
+    background-color: #f8ca9d;
+    padding: 20px;
     font-size: 18px;
     margin-bottom: 10px;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #64401c;
+    border-radius: 20px;
 }
 
 #generated {
-    background-color: #53c987;
-    padding: 5px 200px 80px 5px;
-    color: black;
+    background-color: #f2cf59;
+    padding: 78px 0 79px 0;
+    text-align: center;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #4b4121;
+    border-radius: 20px;
 }
 
 #scorecard {
- background-color: #3afefd;
- color: green;
- text-align: center;
- padding-top: 45px;
- padding-bottom: 5px;
- margin-bottom: 10px; 
+    background-color: #fb8e7e;
+    /* text-align: center; */
+    padding: 50px 0px 35px 0px;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #381e1a;
+    border-radius: 20px;
+}
+
+#one {
+    height: 40px;
+    margin-left: 30%;
+}
+#two {
+    height: 40px;
+    margin-left: 30%;
+}
+#three {
+    height: 40px;
+    margin-left: 30%;
+}
+
+#wins {
+    padding-right: 10px;
+}
+
+#losses {
+    padding-right: 10px;
+}
+
+#buttons-card {
+    padding: 20px;
 }
 
 #losewin {
-    padding: opx;
+    padding: 0px;
     margin: 0px;
 }
 
 #totaltext {
-    background-color: #1fa397;
-    color: white;
-    padding: 3px;
+    background-color: #f8ca9d;
+    padding: 20px;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #473019;
+    border-radius: 20px;
+}
+
+#totalscore-card {
+    padding-bottom: 50px;
 }
 
 #totalscore {
-    background-color: #1fa397;
-    color: white;
-    padding: 5px 200px 80px 5px;
+    background-color: #c5d7c0;
+    padding: 20px 142px 20px 142px;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #273f21;
+    border-radius: 20px;
 }
 
 #buttons {
