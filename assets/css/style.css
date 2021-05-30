@@ -63,15 +63,7 @@ body {
     border-radius: 20px;
 }
 
-#one {
-    height: 40px;
-    margin-left: 30%;
-}
-#two {
-    height: 40px;
-    margin-left: 30%;
-}
-#three {
+.height-space {
     height: 40px;
     margin-left: 30%;
 }
@@ -117,4 +109,28 @@ body {
 
 #buttons {
     margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1199px) {
+    #nameofgame {
+        padding: 0px 100px 0 100px;
+    }
+
+    .height-space {
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #nameofgame {
+        padding: 0;
+    }
+
+    #instructions-card {
+        margin: 0px 25px 20px 25px;
+    }
+
+    .height-space {
+        margin-left: 10%;
+    }
 }
